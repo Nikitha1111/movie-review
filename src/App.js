@@ -1,6 +1,6 @@
 import React from 'react';
-import { HashRouter } from 'react-router-dom';
-import { HashRouter as Router, Route, Routes} from "react-router-dom";
+
+import { ReactRouter as Router, Route, Routes} from "react-router-dom";
 import Home from './MovieAppComponents/home/Home';
 import Header from './MovieAppComponents/Header/Header';
 import Footer from './MovieAppComponents/Footer/Footer';
@@ -19,7 +19,6 @@ return(
 <div className='app'>
 
 
-<HashRouter basename="/movie-review">
 
 
 <Router>
@@ -27,7 +26,7 @@ return(
    
 <Routes>
   
-   <Route path='/movie-review' element={<Home/>}/>
+   <Route path='/' element={<Home/>}/>
    <Route path='/Home' element={<Home/>}/>
    <Route path="/movie/:imdbID" element={<MovieDetail/>}/>
    <Route path ='/pageNotFound' element={<PageNotFound/>}/>
@@ -37,7 +36,7 @@ return(
 <Footer/>
 </Router>
 
-</HashRouter>
+
 
 </div>
 
