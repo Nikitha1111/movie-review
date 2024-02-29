@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { ReactRouter as Router, Route, Routes} from "react-router-dom";
+import {  BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import Home from './MovieAppComponents/home/Home';
 import Header from './MovieAppComponents/Header/Header';
 import Footer from './MovieAppComponents/Footer/Footer';
