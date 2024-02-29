@@ -20,7 +20,7 @@ return(
 
 
 
-<HashRouter basename="/index.html">
+
 <Router>
 <Header></Header> 
    
@@ -36,7 +36,7 @@ return(
 <Footer/>
 </Router>
 
-</HashRouter>
+
 
 </div>
 
