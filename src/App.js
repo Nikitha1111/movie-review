@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {  HashRouter as Router, Route, Routes} from "react-router-dom";
+import {  HashRouter as Router, Route, Routes, HashRouter} from "react-router-dom";
 import Home from './MovieAppComponents/home/Home';
 import Header from './MovieAppComponents/Header/Header';
 import Footer from './MovieAppComponents/Footer/Footer';
@@ -20,7 +20,7 @@ return(
 
 
 
-
+<HashRouter basename="/index.html">
 <Router>
 <Header></Header> 
    
@@ -36,7 +36,7 @@ return(
 <Footer/>
 </Router>
 
-
+</HashRouter>
 
 </div>
 
